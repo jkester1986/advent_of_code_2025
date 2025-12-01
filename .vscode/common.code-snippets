@@ -1,0 +1,16 @@
+{
+  "New Day": {
+    "scope": "javascript",
+    "prefix": "new-day",
+    "body": [
+      "fs = require('fs');",
+      "fs.readFile('Day$1.txt', 'utf8', function (err, data) {",
+      "  if (err) {",
+      "    return console.log(err);",
+      "  }",
+      "  let lines = data.split('\\n');",
+      "});",
+    ],
+    "description": "New Day"
+  },
+}

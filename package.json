@@ -1,0 +1,11 @@
+{
+  "name": "Advent-of-Code-2025",
+  "version": "1.0.0",
+  "author": "Julia Kester <juliamkester@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}

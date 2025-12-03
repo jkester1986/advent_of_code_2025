@@ -19,7 +19,6 @@ if (require.main === module) {
         case "L": {
           // bc negatives are handled weird, this is how we will get the actual dial position
           const newDialVal = (dialVal - (value % 100) + 100) % 100;
-          const difference = dialVal - value;
 
           totalZeros += passZeroXTimes({
             start: dialVal,
